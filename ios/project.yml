@@ -1,0 +1,19 @@
+name: TraficoFinish
+options:
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  TraficoFinish:
+    type: application
+    platform: iOS
+    sources: [FinishCapture]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.trafico.FinishCapture
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSCameraUsageDescription: Record finish-line evidence for a heat.
+        INFOPLIST_KEY_UIFileSharingEnabled: YES
+        INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
