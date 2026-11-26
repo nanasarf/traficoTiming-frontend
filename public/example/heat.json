@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "title": "100 m \u00b7 Demonstration heat",
+  "startUs": 1000000,
+  "cameras": [
+    {
+      "id": "A",
+      "first": {
+        "localUs": 3000000,
+        "starterUs": 1000000
+      },
+      "last": {
+        "localUs": 23000000,
+        "starterUs": 21000000
+      },
+      "frames": [
+        {
+          "localUs": 13800000,
+          "file": "A-00.png"
+        },
+        {
+          "localUs": 13804167,
+          "file": "A-01.png"
+        },
+        {
+          "localUs": 13808334,
+          "file": "A-02.png"
+        },
+        {
+          "localUs": 13812501,
+          "file": "A-03.png"
+        },
+        {
+          "localUs": 13816668,
+          "file": "A-04.png"
+        },
+        {
+          "localUs": 13820835,
+          "file": "A-05.png"
+        },
+        {
+          "localUs": 13825002,
+          "file": "A-06.png"
+        },
+        {
+          "localUs": 13829169,
+          "file": "A-07.png"
+        },
+        {
+          "localUs": 13833336,
+          "file": "A-08.png"
+        },
+        {
+          "localUs": 13837503,
+          "file": "A-09.png"
+        },
+        {
+          "localUs": 13841670,
+          "file": "A-10.png"
+        },
+        {
+          "localUs": 13845837,
+          "file": "A-11.png"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "first": {
+        "localUs": 7000000,
+        "starterUs": 1000000
+      },
+      "last": {
+        "localUs": 27000000,
+        "starterUs": 21000000
+      },
+      "frames": [
+        {
+          "localUs": 17800000,
+          "file": "B-00.png"
+        },
+        {
+          "localUs": 17804167,
+          "file": "B-01.png"
+        },
+        {
+          "localUs": 17808334,
+          "file": "B-02.png"
+        },
+        {
+          "localUs": 17812501,
+          "file": "B-03.png"
+        },
+        {
+          "localUs": 17816668,
+          "file": "B-04.png"
+        },
+        {
+          "localUs": 17820835,
+          "file": "B-05.png"
+        },
+        {
+          "localUs": 17825002,
+          "file": "B-06.png"
+        },
+        {
+          "localUs": 17829169,
+          "file": "B-07.png"
+        },
+        {
+          "localUs": 17833336,
+          "file": "B-08.png"
+        },
+        {
+          "localUs": 17837503,
+          "file": "B-09.png"
+        },
+        {
+          "localUs": 17841670,
+          "file": "B-10.png"
+        },
+        {
+          "localUs": 17845837,
+          "file": "B-11.png"
+        }
+      ]
+    }
+  ],
+  "roster": [
+    {
+      "lane": 1,
+      "name": "K. Mensah"
+    },
+    {
+      "lane": 2,
+      "name": "A. Owusu"
+    },
+    {
+      "lane": 3,
+      "name": "E. Boateng"
+    },
+    {
+      "lane": 4,
+      "name": "K. Addo"
+    },
+    {
+      "lane": 5,
+      "name": "Y. Appiah"
+    },
+    {
+      "lane": 6,
+      "name": "J. Quaye"
+    },
+    {
+      "lane": 7,
+      "name": "S. Asare"
+    },
+    {
+      "lane": 8,
+      "name": "F. Osei"
+    }
+  ],
+  "marks": []
+}

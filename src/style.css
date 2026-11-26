@@ -1,0 +1,217 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #172723;
+  background: #f3f5ef;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 clamp(14px, 4vw, 65px) 48px;
+}
+nav,
+header,
+.heading,
+.decision,
+.controls,
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+nav,
+header,
+.heading {
+  justify-content: space-between;
+}
+nav {
+  padding: 20px 0;
+  border-bottom: 1px solid #c5cec4;
+}
+nav strong {
+  font-size: 23px;
+  letter-spacing: -1px;
+}
+em {
+  font-weight: 500;
+  color: #396b53;
+}
+h1 {
+  font-size: clamp(29px, 4vw, 48px);
+  letter-spacing: -0.055em;
+  margin: 5px 0;
+}
+h2 {
+  font-size: 20px;
+  margin: 0;
+  letter-spacing: -0.025em;
+}
+small {
+  font-weight: 650;
+  color: #49634e;
+}
+.heading {
+  padding: 32px 0;
+}
+.layout {
+  display: grid;
+  grid-template-columns: minmax(175px, 1fr) 4fr;
+  gap: 18px;
+}
+aside,
+.work,
+.summary {
+  border: 1px solid #cbd3ca;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+p {
+  font-size: 14px;
+  color: #48584f;
+  line-height: 1.5;
+  margin: 6px 0 16px;
+}
+button {
+  border: 1px solid #a3afa5;
+  border-radius: 6px;
+  background: #fff;
+  color: #172723;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 12px;
+  cursor: pointer;
+}
+button:hover:enabled {
+  background: #e4eee3;
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.athlete {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  text-align: left;
+  margin: 5px 0;
+  border-color: transparent;
+}
+.athlete b {
+  color: #58705c;
+}
+.athlete span {
+  margin-left: auto;
+}
+.chosen {
+  background: #e1eee4;
+  border-color: #99b59d;
+}
+.cameras {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.camera {
+  min-width: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #eff2ec;
+}
+.camera header {
+  background: #233c33;
+  color: white;
+  padding: 10px;
+}
+.camera header span {
+  font-size: 12px;
+}
+.camera img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2.09;
+  object-fit: contain;
+  background: #172723;
+}
+.controls,
+.actions {
+  padding: 7px;
+  justify-content: center;
+}
+.controls input {
+  width: 50%;
+  flex: 1;
+  accent-color: #326347;
+}
+.decision {
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.decision div {
+  flex: 1;
+  font-size: 14px;
+}
+.primary,
+.summary header button {
+  background: #23553e;
+  color: white;
+}
+.primary:hover:enabled,
+.summary header button:hover:enabled {
+  background: #306a4e;
+}
+.summary {
+  margin-top: 18px;
+}
+.summary header {
+  align-items: flex-start;
+}
+.summary p:empty {
+  display: none;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+td,
+th {
+  padding: 9px;
+  text-align: left;
+  border-top: 1px solid #dce2dc;
+  font-variant-numeric: tabular-nums;
+}
+[role="alert"] {
+  color: #923c26;
+}
+@media (max-width: 800px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .athlete {
+    width: auto;
+    display: inline-flex;
+  }
+  .heading,
+  .summary header {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 560px) {
+  .cameras {
+    grid-template-columns: 1fr;
+  }
+  .work,
+  aside,
+  .summary {
+    padding: 13px;
+  }
+  .decision div {
+    flex-basis: 100%;
+  }
+}
